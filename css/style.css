@@ -100,10 +100,78 @@ header img {
 }
 /*BILD REDIGERING*/
 .minabilder {
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
+    padding: 2%;
 }
 .bild1{
+    background-color: rgb(26, 26, 26);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+.bild1 img {
+    max-width: 90%;
+}
+.bild1 h1 {
+    font-size: 1.2rem;
+}
+.bild1 p {
+    grid-column: span 2;
+    font-size: 1rem;
+}
+.bild2 {
+    background-color: rgb(26, 26, 26);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    padding: 2%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.bild2 img {
+    max-width: 90%;
+    max-height: 80%;
+}
+.bild2 h1 {
+    font-size: 1.2rem;
+}
+.bild2 p {
+    grid-column: span 2;
+    font-size: 1rem;
+}
+
+.bild3 {
+    background-color: rgb(26, 26, 26);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 100%;
+    padding: 2%;
+    align-items: center;
+    margin-bottom: 5%;
+}
+.bild3 img {
+    max-width: 90%;
+    max-height: 80%;
+}
+.bild3 h1 {
+    font-size: 1.2rem;
+}
+.bild3 p {
+    grid-column: span 2;
+    font-size: 1rem;
+}
+/*OM MIG*/
+.me {
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    color: black;
+    margin: 10%;
+}
+.me p {
     
 }
 
